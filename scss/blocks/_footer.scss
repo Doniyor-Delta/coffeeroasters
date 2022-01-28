@@ -20,3 +20,59 @@
 .social-logo:not(:last-child) {
     margin-right: 24px;
 }
+
+@media screen and (max-width: $tablet){
+
+
+   
+    .footer__container {
+        
+       flex-direction: column;
+       justify-content: center;
+        align-items: center;
+        padding: 54px 215px 190px 54px;
+    
+    }
+    
+    .footer__img {
+        margin: 0 auto 33px;
+    }
+    
+    .footer__social {
+       
+        margin: 67px auto 0;
+    }
+    
+  
+    .social-logo:not(:last-child) {
+        margin-right: 24px;
+    }
+    
+    
+}
+
+@media screen and (max-width: $mobile){
+
+    .footer {
+        padding: 54px 54px 54px 56px;
+        }
+    
+ .nav__list {
+     flex-direction: column;
+     text-align: center;
+ }
+ .nav__item:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+
+
+.footer__img {
+   margin: 0 auto 50px;
+}
+
+.footer__social {
+    margin-top: 50px;
+}
+
+}

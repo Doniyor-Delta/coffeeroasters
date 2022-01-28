@@ -76,3 +76,123 @@
     line-height: 26px;
     color: #333D4B;
 }
+
+@media screen and (max-width: $tablet){
+    .how__container {
+        padding-bottom: 144px;
+        margin-left: 0;
+    }
+    .how__title {
+       
+        margin-bottom: 119px;
+    
+    }
+    
+    .how__list {
+
+        margin-bottom: 44px;
+        
+    }
+    
+    .how__list::before {
+        content: "";
+        width: 467px;
+        top: -54px;
+    
+    
+    }
+    
+    .how__item {
+        width: 223px;
+       
+    }
+    
+    .how__item:not(:last-child) {
+        margin-right: 10px;
+    }
+    
+    .how__item::before {
+        content: "";
+        top: -67px;
+    
+    }
+    
+    .how__item-title {
+        width: 223px;
+        font-size: 28px;
+        line-height: 32px;
+        color: #333D4B;
+        margin-top: 42px;
+        margin-bottom: 38px;
+    }
+    
+    .how__item-description {
+        width: 223px;
+        font-size: 15px;
+       line-height: 25px;
+        
+    }
+    
+}
+
+@media screen and (max-width: $mobile){
+
+    .how__container {
+        padding-bottom: 120px;
+    }
+    
+    .how__title {
+        width: 327px;
+        text-align: center;
+        margin-bottom: 80px;
+    
+    }
+    
+    .how__list {
+        flex-direction: column;
+        margin-bottom: 79px;
+        justify-content: center;
+
+    }
+    
+    .how__list::before {
+        content: "";
+        display: none;
+    
+    
+    }
+    
+    .how__item {
+        width: 327px;
+        text-align: center;
+    }
+    
+    .how__item:not(:last-child) {
+        margin-bottom: 56px;
+    }
+    
+    .how__item::before {
+        content: "";
+        display: none;
+    
+    }
+    
+    .how__item-title {
+        width: 327px;
+        font-size: 28px;
+       line-height: 32px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    
+    .how__item-description {
+        width: 327px;
+        font-size: 15px;
+line-height: 25px;
+    }
+    .how-create-link {
+        width: 327px;
+        text-align: center;
+    }
+    
+}

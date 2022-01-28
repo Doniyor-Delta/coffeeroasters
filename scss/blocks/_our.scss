@@ -81,3 +81,60 @@
 .our__item:not(:last-child) {
     margin-right: 30px;
 }
+
+
+@media screen and (max-width: $tablet){
+
+    .our__title {
+max-width: 689px;
+font-size: 96px;
+line-height: 72px;
+
+       
+    }
+    
+
+    .our__list {
+      flex-direction: column;
+      
+     
+    }  
+    .our__item {
+        display: flex;
+        margin-top: -45px;
+    } 
+    .our__item:not(:last-child){
+        margin-bottom: 48px;
+    }
+
+  .our__item-title {
+      margin: 20px 0;
+  }
+     
+}
+
+
+
+
+
+@media screen and (max-width: $mobile){
+    .our__title {
+        margin: 0 auto 43px;
+        max-width: 375px;
+        font-size: 40px;
+       line-height: 72px;
+       text-align: center;
+    }
+
+    .our__list {
+        
+        align-items: center;
+    }
+
+    .our__item {
+
+        flex-direction: column;
+    }
+    
+    
+}

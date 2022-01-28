@@ -18,6 +18,7 @@
     background-color: #2C343E;
     top: 0;
     z-index: -1;
+    border-radius: 10px;
 }
 
 
@@ -93,4 +94,133 @@
     line-height: 26px;
     text-align: center;
     color: #FEFCF7;
+}
+
+@media screen and (max-width: $tablet){
+
+    .why {
+        padding-bottom: 144px;
+        
+    }
+    .why__container {
+        padding-top: 56px;
+    }
+   
+    .why__container::before {
+        content: "";
+        width: 688px;
+        height: 573px;
+        
+    
+    }
+ 
+    
+    .why__title {
+width: 264px;
+font-size: 32px;
+line-height: 48px;
+margin-left: 212px;
+    }
+
+    .why__description{
+        width: 540px;
+        font-size: 15px;
+        line-height: 25px;
+       margin-left: 74px;
+        margin-bottom: 70px;
+    }
+
+    .why__list {
+        flex-direction: column;
+        max-width: 573px;
+    }
+
+    .why__item {
+        display: flex;
+        width: 573px;
+        margin-bottom: 50px;
+        padding: 41px 48px 41px 70px;
+    }
+  
+    .why__item-title {
+        width: 255px;
+        margin: 0 0 16px 0;
+        text-align: left;
+    
+    }
+    .why__item-description {
+        width: 344px;
+        margin: 0;
+        text-align: left;
+
+    }
+    .why__item-img {
+
+        margin-right: 55px;
+    }
+    .why__item:not(:last-child) {
+        margin-bottom: 16px;
+    }
+    
+    
+}
+
+@media screen and (max-width: $mobile){
+
+    .why {
+        padding-bottom: 120px;
+        text-align: center;
+    }
+    .why__container {
+       padding-top: 64px;
+       
+    }
+    
+
+       .why__container::before {
+        content: "";
+        width: 327px;
+        height: 902px;
+    }
+    .why__title {
+font-size: 28px;
+line-height: 28px;
+margin-left: 24px;
+    }
+
+.why__description {
+    width: 279px;
+    font-size: 15px;
+    line-height: 25px;
+margin: 24px 24px 0;
+
+}
+.why__list {
+    padding-inline-start: 0;
+}
+
+.why__item {
+    width: 279px;
+   flex-direction: column;
+   padding: 62px 33px 51px;
+   margin-left: 24px;
+  
+}
+
+.why__item-title {
+    text-align: center;
+}
+.why__item-description {
+    width: 212px;
+    text-align: center;
+ font-size: 15px;
+line-height: 25px;
+
+}
+
+.why__item-img {
+    margin: 0 auto 51px;
+}
+
+
 }
