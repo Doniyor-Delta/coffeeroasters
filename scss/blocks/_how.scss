@@ -1,0 +1,78 @@
+.how__container {
+    padding-bottom: 200px;
+    margin-left: 85px;
+}
+
+.how__title {
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-bottom: 178px;
+
+}
+
+.how__list {
+    display: flex;
+    list-style: none;
+    margin-bottom: 64px;
+    position: relative;
+    padding-inline-start: 0;
+
+}
+
+.how__list::before {
+    content: "";
+    width: 760px;
+    height: 1px;
+    display: block;
+    position: absolute;
+    background-image: url(../img/line-list.png);
+    top: -54px;
+
+
+}
+
+.how__item {
+    width: 285px;
+    position: relative;
+}
+
+.how__item:not(:last-child) {
+    margin-right: 95px;
+}
+
+.how__item::before {
+    content: "";
+    width: 31px;
+    height: 31px;
+    display: block;
+    background-image: url(../img/oval-how.png);
+    position: absolute;
+    top: -67px;
+
+}
+
+.how__item-title {
+    width: 255px;
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    margin-top: 38px;
+    margin-bottom: 43px;
+}
+
+.how__item-description {
+    width: 285px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}

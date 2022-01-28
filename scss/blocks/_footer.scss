@@ -1,0 +1,22 @@
+.footer {
+    background: #2C343E;
+}
+
+.footer__container {
+    display: flex;
+    align-items: center;
+    padding: 47px 0 49px;
+
+}
+
+.footer__img {
+    margin-right: 103px;
+}
+
+.footer__social {
+    margin-left: auto;
+}
+
+.social-logo:not(:last-child) {
+    margin-right: 24px;
+}

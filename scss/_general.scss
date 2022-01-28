@@ -1,0 +1,32 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+body {   
+    background: #F2F2F2;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+}
+ img {
+     max-width: 100%;
+ }
+
+a {
+    text-decoration: 0;
+}

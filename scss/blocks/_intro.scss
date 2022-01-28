@@ -1,0 +1,35 @@
+.intro__container {
+    padding-top: 117px;
+    padding-bottom: 116px;
+    padding-left: 86px;
+    width: 1280px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-image: url(../img/intro-img.png);
+}
+
+.intro__title {
+    margin: 0;
+    width: 493px;
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+
+.intro__decription {
+    width: 445px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-top: 32px;
+    margin-bottom: 56px;
+
+}
